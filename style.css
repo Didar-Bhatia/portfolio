@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.px-1 {
+  position: relative;
+  background-image: url("image.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+}
+h2 {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-stretch: extra-expanded;
+}
+.container {
+  padding-top: 70px;
+}
+
+.px-2 {
+  padding-top: 150px;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(-5px -8px 8px rgba(201, 182, 168, 0.477));
+  margin-bottom: 20px;
+}
+.hello {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Noto Sans JP", sans-serif;
+  font-stretch: extra-expanded;
+  font-size: 28px;
+}
+#intro {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Noto Sans JP", sans-serif;
+  width: 30%;
+  margin: auto;
+  font-stretch: wider;
+}
+.px-3 {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.skills {
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.second {
+  width: 300px;
+  margin-left: 0px;
+}
+.first {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+.img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+footer{
+  background-color: whitesmoke;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.footerIcons{
+  display: flex;
+  justify-content: center;
+}
+.footerIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.footerIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+
+}
+.footerIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.footerIcons a:hover i{
+color:white;
+transition:0.5s;
+}
+.footerNav{
+  margin: 30px 0px;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color: rgb(4, 4, 4);
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background: black;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin:  0px 5px;
+}
